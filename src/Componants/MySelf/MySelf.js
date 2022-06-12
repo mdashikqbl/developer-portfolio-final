@@ -1,4 +1,6 @@
+
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
@@ -42,17 +44,17 @@ const MySelf = () => {
                                 quantity: 4,
                             },
                             repulse: {
-                                distance: 200,
+                                distance: 100,
                                 duration: 0.4,
                             },
                         },
                     },
                     particles: {
                         color: {
-                            value: "#ffffff",
+                            value: "#F15412",
                         },
                         links: {
-                            color: "#ffffff",
+                            color: "#F15412",
                             distance: 150,
                             enable: true,
                             opacity: 0.5,
@@ -68,7 +70,7 @@ const MySelf = () => {
                                 default: "bounce",
                             },
                             random: false,
-                            speed: 6,
+                            speed: 3,
                             straight: false,
                         },
                         number: {
@@ -76,7 +78,7 @@ const MySelf = () => {
                                 enable: true,
                                 area: 800,
                             },
-                            value: 80,
+                            value: 100,
                         },
                         opacity: {
                             value: 0.5,
@@ -85,7 +87,8 @@ const MySelf = () => {
                             type: "circle",
                         },
                         size: {
-                            value: { min: 1, max: 5 },
+
+                            value: 5,
                         },
                     },
                     detectRetina: true,
@@ -96,7 +99,7 @@ const MySelf = () => {
                 <div className='w-1/2'>
                     <h1 class="text-5xl font-bold text-white">Hi! I am Ashik Iqbal !</h1>
                     <p class="py-6 text-xl text-white">I am a Front-end developer specializing.I am focused on Learning full-stack web development.</p>
-                    <button class="btn bg-secondary font-bold border-0 text-white">DOWNLOAD RESUME</button>
+                    <button class="btn bg-secondary font-bold border-0 text-white">HIRE ME</button>
                 </div>
             </div>
         </div>
